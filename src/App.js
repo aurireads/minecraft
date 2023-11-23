@@ -1,9 +1,13 @@
 import React from "react";
 
+//my imports
+import Home from "./pages/Home";
+import './index.css';
+
 function App() {
   return (
   <>
-  <h1>hello world</h1>
+  <Home/>
   </>
 );
 }

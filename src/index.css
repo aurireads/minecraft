@@ -1,0 +1,25 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'minecraft', sans-serif;
+    src: url(minecraft_font.ttf);
+}
+
+body {
+    background-color: #00AA00;
+}
+
+h1 {
+    font-family: 'minecraft';
+    text-shadow: 2px 2px 4px #555555;
+    font-size: 3rem;
+}
+
+p, span, h3, h4 {
+    text-shadow: 2px 2px 4px #555555;
+    font-size: 1rem;
+}
